@@ -1,0 +1,20 @@
+<meta charset="UTF-8">
+
+
+<script>
+    /*Peça para o usuário informar uma temperatura em Fahrenheit. Converta e apresente a temperatura em graus Celsius.
+    */
+
+    //Entrada
+    const temperaturaFahrenheit = prompt("Informe a temperatura em graus Fahrenheit:");
+
+    //Processamento
+    const converterTemperatura = (Number(temperaturaFahrenheit) - 32) * 5 / 9
+
+
+
+    //Saida
+    document.write(`A temperatura convertida é de ${converterTemperatura.toFixed(3)} °C`);
+
+
+</script>

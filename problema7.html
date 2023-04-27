@@ -1,0 +1,19 @@
+<meta charset="UTF-8">
+
+
+<script>
+    /*Peça para o usuário informar qual foi o preço do jantar. Calcule 10% da gorjeta e apresente o preço total que deverá pagar para o restaurante e apresente o resultado. 
+    */
+
+    //Entrada
+    const preco = prompt("Informe o preço do jantar:");
+
+    //processamento
+    const valorGorjeta = Number(preco) * 10 / 100;
+    const valorFinal = Number(valorGorjeta) + Number(preco);
+
+
+    //Saida
+    document.write(`o preço total que deverá pagar para o restaurante é de ${valorFinal} real(is)`);
+
+</script>

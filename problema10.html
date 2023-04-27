@@ -1,0 +1,29 @@
+<meta charset="UTF-8">
+
+
+<script>
+    /*Peça para o usuário informar uma data em dias com horas, minutos e segundos e retorne a data em segundos.
+    */
+
+   //Entrada
+   const dia = prompt("Insira um dia")
+   const horas = prompt("Insira uma hora(s)")
+   const minutos = prompt("Insira minutos")
+   const segundos = prompt("Insira segundos")
+
+
+   //Processamento
+   const calculoDia = Number(dia) * 86400
+
+   const calculoHoras = Number(horas) * 3600
+
+   const calculoMinutos = Number(minutos) * 60
+
+   const calculoSegundos = Number(segundos) 
+
+   const todaSoma = Number(calculoDia) + Number(calculoHoras) + Number(calculoMinutos) + Number(calculoSegundos);
+
+   //Saida
+   document.write(`O total é de ${todaSoma} segundos`)
+
+</script>
